@@ -24,7 +24,7 @@ function App() {
     const notif = document.createElement('div');
     notif.classList.add('toast');
     container.appendChild(notif);
-    notif.innerText = "This challenge is crazy!!!!!!"
+    notif.innerText = "added"
     setTimeout(()=>{
         notif.remove();
     },3000);
